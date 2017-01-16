@@ -10,10 +10,10 @@
 
 ## Models
 {% for name, type in types %}
-{% include "./type.nunjucks" %}
+{% include "./type.njk" %}
 {% endfor %}
 
 {% for resource in resources %}
 ## {{ resource.displayName | default(resource.relativeUri) | capitalize }}
-{% include "./resource.nunjucks" %}
+{% include "./resource.njk" %}
 {% endfor %}
