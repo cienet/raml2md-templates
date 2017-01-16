@@ -1,0 +1,23 @@
+{
+  "name": "raml2md-templates",
+  "version": "0.1.0",
+  "description": "Full featured template of raml2md",
+  "main": "index.njk",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cienet/raml2md-templates.git"
+  },
+  "keywords": [
+    "raml2md",
+    "template"
+  ],
+  "author": "Quanlong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cienet/raml2md-templates/issues"
+  },
+  "homepage": "https://github.com/cienet/raml2md-templates#readme"
+}
