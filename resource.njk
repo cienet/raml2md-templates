@@ -1,7 +1,9 @@
 {% if resource.methods | length %}
 
 {% for endpoint in resource.methods %}
-### {{ endpoint.description | default(resource.relativeUri) | capitalize }}
+### {{ endpoint.displayName | default(resource.relativeUri) | capitalize }}
+
+{{ endpoint.description }}
 
 ```
 {{ endpoint.method | upper }} {{ resource.parentUrl }}{{ resource.relativeUri }}
