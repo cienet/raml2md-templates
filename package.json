@@ -1,5 +1,5 @@
 {
-  "name": "raml2md-templates",
+  "name": "cienet-raml2md-templates",
   "version": "0.1.0",
   "description": "Full featured template of raml2md",
   "main": "index.njk",
